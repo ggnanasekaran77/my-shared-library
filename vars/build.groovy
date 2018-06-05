@@ -1,6 +1,6 @@
 #!groovy
 
-def call (){
+def call (message){
 
-    echo "This is from gradle build groovy"
+    echo "This is from gradle build groovy : ${message}"
 }
